@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VKZXHT4NCV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VKZXHT4NCV');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — PDFConvertly.net</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0d0805; --surface:#160e08; --card:#1c1209; --border:#3d2010; --orange:#f97316; --orange-light:#fb923c; --orange-dim:#7c2d12; --red:#ef4444; --yellow:#eab308; --text:#fff7ed; --text-muted:#9a7560; --text-dim:#4a3020; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:'Outfit',sans-serif; font-weight:300; }
+  .glow { position:fixed; top:-200px; left:20%; width:600px; height:500px; background:radial-gradient(ellipse,rgba(249,115,22,0.1) 0%,transparent 65%); pointer-events:none; z-index:0; }
+  header { position:relative; z-index:10; padding:0 40px; height:68px; display:flex; align-items:center; border-bottom:1px solid var(--border); background:rgba(13,8,5,0.92); backdrop-filter:blur(20px); }
+  .logo { display:flex; align-items:center; gap:10px; text-decoration:none; }
+  .logo-mark { width:34px; height:34px; background:linear-gradient(135deg,var(--orange),var(--red)); border-radius:10px; display:flex; align-items:center; justify-content:center; }
+  .logo-text { font-size:1.2rem; font-weight:800; color:var(--text); }
+  .logo-text span { color:var(--orange-light); }
+  .content { position:relative; z-index:1; max-width:760px; margin:0 auto; padding:60px 24px 100px; }
+  h1 { font-size:2.4rem; font-weight:800; letter-spacing:-0.03em; margin-bottom:16px; }
+  h1 span { background:linear-gradient(135deg,var(--orange-light),var(--yellow)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+  h2 { font-size:1.1rem; font-weight:700; color:var(--orange-light); margin:40px 0 14px; }
+  p { color:var(--text-muted); line-height:1.9; font-size:0.95rem; margin-bottom:16px; }
+  strong { color:var(--text); font-weight:600; }
+  .tools-list { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:20px 0; }
+  .tool-item { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; font-size:0.88rem; color:var(--text-muted); display:flex; gap:10px; align-items:flex-start; }
+  .tool-item strong { color:var(--orange-light); display:block; margin-bottom:3px; }
+  .privacy-note { background:rgba(249,115,22,0.06); border-left:2px solid var(--orange); border-radius:0 10px 10px 0; padding:18px 22px; margin-top:28px; }
+  .privacy-note p { margin:0; font-size:0.88rem; }
+  footer { position:relative; z-index:1; border-top:1px solid var(--border); padding:28px 40px; display:flex; justify-content:space-between; }
+  footer p, footer a { font-size:0.75rem; color:var(--text-dim); text-decoration:none; }
+  footer a:hover { color:var(--orange-light); }
+  @media(max-width:768px) { header{padding:0 16px} .tools-list{grid-template-columns:1fr} footer{flex-direction:column;gap:10px} }
+</style>
+</head>
+<body>
+<div class="glow"></div>
+<header>
+  <a href="index.html" class="logo">
+    <div class="logo-mark">📄</div>
+    <span class="logo-text">PDF<span>Convertly</span></span>
+  </a>
+</header>
+<div class="content">
+  <h1>About <span>PDFConvertly</span></h1>
+  <p>PDFConvertly.net is a free, browser-based PDF toolkit. We believe working with PDF files should be instant, private, and free — no account, no watermarks, no hidden fees.</p>
+  <p>All processing happens directly in your browser. Your files are never uploaded to our servers, which means complete privacy for your sensitive documents.</p>
+
+  <h2>Our Tools</h2>
+  <div class="tools-list">
+    <div class="tool-item"><div><strong>🗜️ Compress PDF</strong>Reduce file size without quality loss</div></div>
+    <div class="tool-item"><div><strong>🔗 Merge PDF</strong>Combine multiple PDFs into one</div></div>
+    <div class="tool-item"><div><strong>✂️ Split PDF</strong>Extract pages by range</div></div>
+    <div class="tool-item"><div><strong>📝 PDF to Word</strong>Convert to editable .docx</div></div>
+    <div class="tool-item"><div><strong>📄 Word to PDF</strong>Convert .docx to PDF</div></div>
+    <div class="tool-item"><div><strong>🖼️ PDF to Image</strong>Export pages as JPG/PNG</div></div>
+    <div class="tool-item"><div><strong>🔄 Rotate PDF</strong>Fix page orientation</div></div>
+    <div class="tool-item"><div><strong>🔒 Protect PDF</strong>Add password protection</div></div>
+    <div class="tool-item"><div><strong>🔓 Unlock PDF</strong>Remove password</div></div>
+  </div>
+
+  <div class="privacy-note">
+    <p><strong style="color:var(--orange-light)">Your Privacy:</strong> All PDF processing runs entirely in your browser using JavaScript. Your files are never sent to our servers. We never see your documents.</p>
+  </div>
+</div>
+<footer>
+  <p>© 2025 PDFConvertly.net — Free PDF tools</p>
+  <div style="display:flex;gap:20px"><a href="privacy.html">Privacy</a><a href="contact.html">Contact</a></div>
+</footer>
+</body>
+</html>
